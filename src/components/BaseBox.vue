@@ -1,7 +1,14 @@
 <template>
-  <div :class="styles.box"></div>
+  <div class="box">
+    <p>I am the base box</p>
+  </div>
 </template>
 
 <script setup lang="ts">
-import styles from "./BaseBox.module.scss";
 </script>
+
+<style lang="postcss">
+.box {
+  @apply bg-blue-800 text-6xl;
+}
+</style>
