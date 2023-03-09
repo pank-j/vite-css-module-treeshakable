@@ -3,7 +3,7 @@ Test this sample component library by following the below steps:
 
 ### Install the dependencies:
 ```sh
-npm install
+yarn
 ```
 
 ### Build the library:
